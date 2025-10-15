@@ -12,7 +12,7 @@ app.use(cors())
 app.use(express.json())
 
 app.get("/", (req, res) => {
-  res.send("Hello World!!!! 5 try to deploy")
+  res.send("Hello World!!!! finish to deploy")
 })
 
 app.listen(PORT, () => {
